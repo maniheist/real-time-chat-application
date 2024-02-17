@@ -16,7 +16,7 @@ const Chat=()=>{
     const [message,setMessage] =useState('');
     const [messages,setMessages] =useState([]);
 
-const ENDPOINT= 'localhost:5000';
+const ENDPOINT= 'https://manichat777.onrender.com/';
     useEffect(() => {
         const {name, room }=queryString.parse(location.search.substring(location.search));
 
